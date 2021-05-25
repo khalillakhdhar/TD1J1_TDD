@@ -13,4 +13,11 @@ public void conversible(String x)
 Integer.parseInt(x);	
 
 }
+public boolean soustraction(int a,int b)
+{
+return a>b; 
+// return a-b>0;
+
+
+}
 }
