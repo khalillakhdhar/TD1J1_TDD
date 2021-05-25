@@ -33,4 +33,9 @@ else
 	return false;
 
 }
+public boolean verif_chaine(String ch)
+{
+return ch.isBlank();
+
+}
 }
