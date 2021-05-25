@@ -12,4 +12,8 @@ public class ValidatePassword {
 	Assert.assertEquals(true,pv.isValid("123456"));
 	
 	}
+	@Test
+	public void test2() {
+	Assert.assertEquals("Verifier longueur mot de passe ",true,PasswordValidator.isValid("123456"));
+	}
 }
