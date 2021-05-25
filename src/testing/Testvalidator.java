@@ -35,5 +35,12 @@ public void testConvert()
 exception.expect(Exception.class);	
 validation.conversible("23A");
 }
+@Test
+public void testDiff()
+{
+assertEquals(0, validation.soustraction(3, 6));
+
+}
+
 
 }

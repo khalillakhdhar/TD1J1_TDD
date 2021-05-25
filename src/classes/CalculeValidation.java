@@ -14,9 +14,9 @@ public int conversible(String x)
 return Integer.parseInt(x);	
 
 }
-public boolean soustraction(int a,int b)
+public int soustraction(int a,int b)
 {
-return a>b; 
+return a-b; 
 // return a-b>0;
 
 
