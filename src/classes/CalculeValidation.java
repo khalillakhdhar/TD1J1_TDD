@@ -1,6 +1,7 @@
 package classes;
 
 public class CalculeValidation {
+	//classe de code de teste
 public boolean verif_division(int b)
 {
 	
@@ -8,9 +9,9 @@ return b!=0;
 // if(b==0) return false; else return true;
 
 }
-public void conversible(String x)
+public int conversible(String x)
 {
-Integer.parseInt(x);	
+return Integer.parseInt(x);	
 
 }
 public boolean soustraction(int a,int b)
