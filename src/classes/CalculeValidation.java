@@ -20,4 +20,17 @@ return a>b;
 
 
 }
+public boolean different(int a,int b)
+{
+return a!=b;	
+
+}
+public boolean parite(int p)
+{
+if(p%2==0)
+	return true;
+else 
+	return false;
+
+}
 }
