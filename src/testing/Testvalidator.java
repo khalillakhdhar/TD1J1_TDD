@@ -1,5 +1,6 @@
 package testing;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
@@ -18,7 +19,8 @@ validation=new CalculeValidation();
 @Test
 public void testdiv()
 {
-	assertTrue(validation.verif_division(0));
+	assertTrue(validation.verif_division(9));
+	//assertEquals(true, validation.verif_division(0));
 
 }
 }
