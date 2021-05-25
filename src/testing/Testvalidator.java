@@ -11,6 +11,8 @@ import classes.CalculeValidation;
 
 import org.junit.rules.ExpectedException;
 public class Testvalidator {
+	//classe de testing et verification
+	
 @Rule
 public ExpectedException exception=ExpectedException.none();
 private CalculeValidation validation ;
