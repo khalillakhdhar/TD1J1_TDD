@@ -38,7 +38,15 @@ validation.conversible("23A");
 @Test
 public void testDiff()
 {
-assertEquals(0, validation.soustraction(3, 6));
+assertEquals(0, validation.soustraction(3, 3));
+
+}
+
+@Test
+public void testpaire()
+{
+assertTrue(validation.parite(36));	
+
 
 }
 
